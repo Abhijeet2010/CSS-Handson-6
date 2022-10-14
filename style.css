@@ -13,6 +13,8 @@ body{
 
 p{
     color: white;
+    text-shadow: 3px 2px black;
+    
 }
 
 
@@ -23,6 +25,7 @@ button{
     padding: 10px;
     outline: none;
     border: none;
+    box-shadow: 3px 3px black;
 }
 
 button:hover{
@@ -60,6 +63,7 @@ nav >ul{
 
 ul > li{
     list-style: none;
+    text-shadow: 3px 4px black;
 }
 
 img:hover{
@@ -92,7 +96,8 @@ padding-right: 10px;
 }
 
 .text-div > h1{
-    color: white;
+    color: orange;
+    text-shadow: 3px 5px black;
     font-size: 80px;
 }
 
@@ -115,7 +120,8 @@ padding-right: 10px;
 font-size: 20px;
 font-style: italic;
 text-align: center;
-color: black;
+color: white;
+text-shadow: 3px 3px black;
 padding: 10px;
 }
 
@@ -130,7 +136,7 @@ padding: 10px;
     background:url("https://www.templepurohit.com/wp-content/uploads/2016/07/Hindu-Temples-Indian-Temples-Hindu-Mandir-TemplePedia.jpg") ;
     background-size:cover;
     background-position: center;
-    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.90) 0px 15px 12px;
     border-radius: 15px;
 
 }
@@ -141,7 +147,7 @@ padding: 10px;
     background:url("https://navbharattimes.indiatimes.com/photo/msid-83603807,imgsize-272160/pic.jpg") ;
     background-size:cover;
     background-position: center;
-    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 19px 38px, rgba(0, 0, 0, 0.90) 0px 15px 12px;
     border-radius: 15px;
     
 }
@@ -151,7 +157,7 @@ padding: 10px;
     background:url("https://i.pinimg.com/originals/6a/75/1e/6a751ea3fbc761d7ac2ee5fdc82b9a09.jpg") ;
     background-size:cover;
     background-position: center;
-    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.90) 0px 15px 12px;
     border-radius: 15px;
     
     
@@ -162,7 +168,7 @@ padding: 10px;
     background:url("https://w0.peakpx.com/wallpaper/600/127/HD-wallpaper-temple-barsana-religious-vrindavan-lord-spritual-mandir-krishna-god-mathura.jpg") ;
     background-size:cover;
     background-position: center;
-    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.90) 0px 15px 12px;
     border-radius: 15px;
     
 }
