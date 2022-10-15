@@ -8,8 +8,7 @@
 
 body{
     background: url("https://deadline.com/wp-content/uploads/2021/08/hanuman-1.jpeg");
-
-    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 p{
@@ -79,6 +78,7 @@ li:hover{
 
 
 .wrap-section{
+    height: 60vh;
     width: 85%;
     margin-left: auto;
     margin-right: auto;
@@ -182,6 +182,9 @@ padding: 10px;
 
 /* small device */
 @media (min-width:0px)and (max-width:480px){
+    body{
+        height: 120vh;
+    }
     nav{
         display: flex;
         justify-content: space-between;
@@ -210,7 +213,7 @@ padding: 10px;
     }
    
     .wrap-section{
-        height: 100vh;
+        height: 120vh;
         width: 85%;
         margin-left: auto;
         margin-right: auto;
@@ -246,7 +249,7 @@ padding: 10px;
         }
         .grid{
 
-            height: 100px;
+            height: 180px;
             width: 100%;
             
         }
@@ -305,7 +308,7 @@ padding: 10px;
     }
    
     .wrap-section{
-        height: 100vh;
+        height: 88vh;
         width: 85%;
         margin-left: auto;
         margin-right: auto;
@@ -339,7 +342,7 @@ padding: 10px;
             /* border: none; */
         }
         .grid{
-            height: 120px;
+            height: 150px;
             width: 100%;
         }
 
@@ -442,7 +445,7 @@ padding: 10px;
             grid-template-rows: repeat(2, 1fr);
             gap: 20px;
             padding: 20px;
-            margin-top: 2rem;
+            margin-top: 4rem;
         }
         
         
@@ -532,7 +535,7 @@ padding: 10px;
             grid-template-rows: repeat(2, 1fr);
             gap: 20px;
             padding: 20px;
-            margin-top: 2rem;
+            margin-top: 4rem;
         }
         
         
@@ -660,35 +663,7 @@ padding: 10px;
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-@media(min-width:1720px) and (max-width:3340px){
-
+@media(min-width:1722px) and (max-width:3300px){
     nav{
         display: flex;
         justify-content: space-between;
@@ -708,7 +683,7 @@ padding: 10px;
         align-items: center;
         margin-right: 80px;
         gap: 30px;
-        font-size: 15px;
+        font-size: 20px;
         color: white;
     }
     
@@ -720,37 +695,38 @@ padding: 10px;
         margin-left: auto;
         margin-right: auto;
         display: flex;
+        /* flex-direction: column; */
         margin-top: 10px;
     }
     .text-div{
         width: 100%;
         height: fit-content;
-        padding-top: 80px;
+        padding-top: 70px;
         padding-left:10px ;
         padding-right: 10px;
-        margin-top: 50px;
+        margin-top: 40px;
         }
         
         .text-div > h1{
             color: orange;
-            font-size: 70px;
+            font-size: 70   px;
         }
 
         .text-div > p{
-            font-size: 26px;
+            font-size: 20px;
         }
         
         button{
             width: 250px;
             border-radius: 99px;
-            margin-top: 20px;
+            margin-top: 30px;
             padding: 15px;
             outline: none;
             border: none;
         }
 
         .grid{
-            height: 260px;
+            height: 240px
         }
 
         .grid-div{
@@ -759,14 +735,14 @@ padding: 10px;
             height: 40vh;
             grid-template-columns: repeat( 2, 1fr);
             grid-template-rows: repeat(2, 1fr);
-            gap: 40px;
-            padding: 40px;
+            gap: 20px;
+            padding: 20px;
             margin-top: 2rem;
         }
         
         
         .grid> h2 {
-        font-size: 30px;
+        font-size: 20px;
         font-style: italic;
         text-align: center;
         color: white;
@@ -777,11 +753,3 @@ padding: 10px;
 
 
 }
-
-
-
-
-
-
-
-
